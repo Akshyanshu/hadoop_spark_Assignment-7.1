@@ -1,0 +1,6 @@
+Calculate the number of employees corresponding to each skill from the table 'employee' which is
+loaded in the Demo.
+
+Select unit, count(1)
+From emp_details
+Group by unit;
